@@ -53,10 +53,7 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+ 
   ];
   
   const technologies = [
@@ -96,10 +93,7 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+ 
     {
       name: "git",
       icon: git,
@@ -117,10 +111,10 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "ediFel",
+      icon: edifel,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2024 - October 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +123,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "React Js Developer",
+      company_name: "Eztech",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - Feb 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,10 +137,10 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "AngiesEnterprise",
+      icon: angies,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mar - Dec 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -169,7 +163,7 @@ import {
     },
   ];
   
-  const testimonials = [
+  /*const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -195,12 +189,12 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
+  */
   const projects = [
     {
-      name: "Car Rent",
+      name: "indecision-app",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based app that allows users to make plan for the day.",
       tags: [
         {
           name: "react",
@@ -216,7 +210,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Johnbullkitchner1/indecision-app",
     },
     {
       name: "Job IT",
@@ -237,10 +231,10 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Johnbullkitchner1/rock-paper-scissors",
     },
     {
-      name: "Trip Guide",
+      name: "Rock-paper-scissors",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
